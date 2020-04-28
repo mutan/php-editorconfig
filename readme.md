@@ -16,7 +16,7 @@
 composer require mutan/php-editorconfig:^1.0
 ```
 
-3. Make symlinks in project root dir
+3. Make symlink in project root dir
 ```bash
 ln -s vendor/mutan/php-editorconfig/.editorconfig .
 ```
