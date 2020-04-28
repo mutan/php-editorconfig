@@ -1,15 +1,22 @@
-# Корневой файл EditorConfig
 root = true
 
-# Для всех файлов
-[*]
+[*] # Rules for all files
 charset = utf-8
-indent_style = tab
-indent_size = 4
-
-# Настройки для конретного типа файлов
-[*.jade]
+end_of_line = lf # UNIX-style line endings
 indent_style = space
-indent_size = 2
+indent_size = 4
+trim_trailing_whitespace = true # remove whitespaces from lines end
+insert_final_newline = true
 
-
+[*.php]
+ij_php_phpdoc_blank_line_before_tags = false
+ij_php_phpdoc_blank_lines_around_parameters = true
+ij_php_phpdoc_keep_blank_lines = true
+ij_php_phpdoc_param_spaces_between_name_and_description = 1
+ij_php_phpdoc_param_spaces_between_tag_and_type = 1
+ij_php_phpdoc_param_spaces_between_type_and_name = 1
+ij_php_phpdoc_use_fqcn = false
+ij_php_phpdoc_wrap_long_lines = true
+ij_php_sort_phpdoc_elements = true
+ij_php_align_phpdoc_comments = true
+ij_php_align_phpdoc_param_names = true
