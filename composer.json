@@ -1,0 +1,13 @@
+{
+    "name": "mutan/php-editorconfig",
+    "description": ".editorconfig file with code-style settings, mostly for PhpStorm",
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Akim Gubanov",
+            "email": "akim.gubanov@gmail.com"
+        }
+    ],
+    "require": {}
+}
