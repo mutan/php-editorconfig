@@ -5,7 +5,7 @@
 "repositories": [
     {
         "type": "vcs",
-        "url": "ssh://git@github.com:mutan/php-editorconfig.git",
+        "url": "ssh://git@github.com:22/mutan/php-editorconfig.git",
         "reference": "master"
     }
 ]
@@ -21,4 +21,4 @@ composer require mutan/php-editorconfig:^1.0
 ln -s vendor/mutan/php-editorconfig/.editorconfig .
 ```
 
-4. Enable `.editorconfig` in PhpStorm: Settings - Editor - Code Style - check Enable EditorConfig support.  
+4. Enable `.editorconfig` in PhpStorm: Settings - Editor - Code Style - check Enable EditorConfig support.
