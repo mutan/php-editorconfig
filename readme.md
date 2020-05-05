@@ -21,4 +21,6 @@ composer require mutan/php-editorconfig:^1.0
 ln -s vendor/mutan/php-editorconfig/.editorconfig .
 ```
 
-4. Enable `.editorconfig` in PhpStorm: Settings - Editor - Code Style - check Enable EditorConfig support.
+4. Enable `.editorconfig` in PhpStorm: Settings - Editor - Code Style - check Enable EditorConfig support.  
+
+5. Use `Ctrl+Alt+L` to reformat the code.
