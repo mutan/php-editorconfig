@@ -5,7 +5,7 @@
 "repositories": [
     {
         "type": "vcs",
-        "url": "ssh://git@github.com:22/mutan/php-editorconfig.git",
+        "url": "https://github.com/mutan/php-editorconfig.git",
         "reference": "master"
     }
 ]
