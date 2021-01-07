@@ -13,7 +13,7 @@
 
 2. Install package
 ```bash
-composer require mutan/php-editorconfig:^1.0
+composer require --dev mutan/php-editorconfig:^1.0
 ```
 
 3. Make symlink in project root dir
