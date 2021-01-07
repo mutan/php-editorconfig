@@ -1,6 +1,6 @@
 ## Installation
 
-1. Add to `composer.json`:
+1. Add to `composer.json`
 ```json
 "repositories": [
     {
@@ -21,6 +21,11 @@ composer require mutan/php-editorconfig:^1.0
 ln -s vendor/mutan/php-editorconfig/.editorconfig .
 ```
 
-4. Enable `.editorconfig` in PhpStorm: Settings - Editor - Code Style - check Enable EditorConfig support.  
+4. Add to `.gitignore`
+```bash
+.editorconfig
+```
 
-5. Use `Ctrl+Alt+L` to reformat the code.
+5. Enable `.editorconfig` in PhpStorm: Settings - Editor - Code Style - check Enable EditorConfig support.
+
+6. Use `Ctrl+Alt+L` to reformat the code.
