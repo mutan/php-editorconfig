@@ -1,3 +1,5 @@
+Deprecated. Use linters.
+
 ## Installation
 
 1. Add to `composer.json`
